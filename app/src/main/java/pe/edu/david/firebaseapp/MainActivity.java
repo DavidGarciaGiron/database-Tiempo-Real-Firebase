@@ -1,5 +1,6 @@
 package pe.edu.david.firebaseapp;
 
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -8,7 +9,9 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.facebook.login.LoginManager;
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -38,7 +41,44 @@ public class MainActivity extends AppCompatActivity {
 
         mFirebaseAnalytics.setUserProperty("username", "dgarcia");
 
+        //-------------------------------------------------------------------
+        //-------------------------------------------------------------------
+        //-------------------------------------------------------------------
+        //-------------------------------------------------------------------
 
+        
+        //Firebase Real Time ----------------/comienzo/
+        // Get currentuser from FirebaseAuth
+      //  FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
+      //  Log.d(TAG, "currentUser: " + currentUser);
+
+        // Save/Update current user to Firebase Database
+      //  User user = new User();
+      //  user.setUid(currentUser.getUid());
+      //  user.setDisplayName(currentUser.getDisplayName());
+      //  user.setEmail(currentUser.getEmail());
+       // user.setPhptoUrl((currentUser.getPhotoUrl()!=null?currentUser.getPhotoUrl().toString():null));
+        // user.setEtc...
+
+      //  DatabaseReference usersRef = FirebaseDatabase.getInstance().getReference("users");
+    //    usersRef.child(user.getUid()).setValue(user)
+    //            .addOnCompleteListener(new OnCompleteListener<Void>() {
+    //                @Override
+      //              public void onComplete(@NonNull Task<Void> task) {
+      //                  if(task.isSuccessful()){
+       //                     Log.d(TAG, "onSuccess");
+       //                 }else{
+      //                      Log.e(TAG, "onFailure", task.getException());
+      //                  }
+      //              }
+     //           });
+
+      //-------------------------------------------------------------------
+        //-------------------------------------------------------------------
+        //-------------------------------------------------------------------
+        //-------------------------------------------------------------------
+
+        //Firebase Real Time ----------------/fin/
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         Log.d(TAG, "user: " + user);
 
