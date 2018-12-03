@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "521668556654",
+    "firebase_url": "https://fir-app-9e456.firebaseio.com",
+    "project_id": "fir-app-9e456",
+    "storage_bucket": "fir-app-9e456.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521668556654:android:a4bf596f2c0e8f7d",
+        "android_client_info": {
+          "package_name": "pe.edu.david.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521668556654-8qejs3kfpjjf95pk6dsb8apgl9mmlbng.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.edu.david.firebaseapp",
+            "certificate_hash": "b700893c0c5335b6e9958c0b41d1b3c7604fffcd"
+          }
+        },
+        {
+          "client_id": "521668556654-5evj34q2jl50ajianvsujjl4a22i7hto.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.edu.david.firebaseapp",
+            "certificate_hash": "50acf9854fbf0f7eb25ce6e1c08ef839d67bf56b"
+          }
+        },
+        {
+          "client_id": "521668556654-56o0755mroes1knrgqaj66ui3rqd4fo1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_F1luFYgIfKKv8Le0fIPiQP6QFHj5GWw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521668556654-56o0755mroes1knrgqaj66ui3rqd4fo1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
